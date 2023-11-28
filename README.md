@@ -7,6 +7,8 @@
 
 Video Anomaly Detection (VAD) is crucial in various domains like security, healthcare, and public safety due to the increasing prevalence of surveillance cameras. This project introduces a novel Weakly Supervised Anomaly Detection framework aimed at enhancing the accuracy and efficiency of identifying uncommon events or behaviors in video streams.
 
+<img src="https://github.com/ArunAK111/PESU_ISFCR/blob/main/Results/1.png" width="600" height="300" />
+
 ### Project Goals
 
 - Develop an efficient VAD model using weak supervision.
@@ -62,11 +64,15 @@ The project comprises several components:
 
 ## Results and Future Work
 
+<img src="https://github.com/ArunAK111/PESU_ISFCR/blob/main/Results/2.png" width="700" height="250" />
+
 The project achieved effective context modeling and semantic enhancement for weakly supervised video anomaly detection. Notable outcomes include:
 
 - Improved anomaly localization accuracy.
 - Reduction in false alarms in normal videos.
 - Enhanced overall detection performance.
+
+<img src="https://github.com/ArunAK111/PESU_ISFCR/blob/main/Results/3.png" width="400" height="200" />
 
 **Future Directions:**
 
