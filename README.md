@@ -1,6 +1,7 @@
 # PESU_ISFCR
-<hr>
-# Weakly Supervised Video Anomaly Detection Framework
+#### Jun - Jul 2023
+
+# Weakly Supervised Video Anomaly Detection
 
 ## Overview
 
@@ -31,6 +32,17 @@ The project comprises several components:
 
 - **Temporal Context Aggregation (TCA):** Captures video snippet relationships over time, effectively combining local and global context for better temporal understanding.
 - **Prompt-Enhanced Learning (PEL):** Utilizes external knowledge to enhance anomaly detection, aligning abnormal contexts with prompts for improved differentiation of anomaly types.
+
+## Requirements
+
+### Frameworks / Libraries Used:
+
+- Python 3
+- PyTorch
+- OpenCV
+- NumPy
+- TorchVision
+
 
 ## How to Use
 
@@ -63,5 +75,5 @@ The project achieved effective context modeling and semantic enhancement for wea
 
 ## Contributors
 
-- **Intern:** [Your Name]
+- **Intern:** Arun Amar Kurali
 - **Guide:** Prof. Preet Kanwal
