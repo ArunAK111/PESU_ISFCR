@@ -54,10 +54,6 @@ class Learner2(nn.Module):
         return torch.sigmoid(x)
 
     def parameters(self):
-        """
-        override this function since initial parameters will return with a generator.
-        :return:
-        """
         return self.vars
 
 
