@@ -72,7 +72,7 @@ The project achieved effective context modeling and semantic enhancement for wea
 - Reduction in false alarms in normal videos.
 - Enhanced overall detection performance.
 
-<img src="https://github.com/ArunAK111/PESU_ISFCR/blob/main/Results/3.png" width="400" height="200" />
+<img src="https://github.com/ArunAK111/PESU_ISFCR/blob/main/Results/3.png" width="200" height="100" />
 
 **Future Directions:**
 
