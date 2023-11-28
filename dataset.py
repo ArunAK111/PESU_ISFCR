@@ -5,9 +5,6 @@ import os
 import random
 
 class Normal_Loader(Dataset):
-    """
-    is_train = 1 <- train, 0 <- test
-    """
     def __init__(self, is_train=1, path='./UCF-Crime/', modality='TWO'):
         super(Normal_Loader, self).__init__()
         self.is_train = is_train
@@ -50,9 +47,6 @@ class Normal_Loader(Dataset):
                 return concat_npy, gts, frames
 
 class Anomaly_Loader(Dataset):
-    """
-    is_train = 1 <- train, 0 <- test
-    """
     def __init__(self, is_train=1, path='./UCF-Crime/', modality='TWO'):
         super(Anomaly_Loader, self).__init__()
         self.is_train = is_train
@@ -97,4 +91,3 @@ class Anomaly_Loader(Dataset):
 if __name__ == '__main__':
     loader2 = Normal_Loader(is_train=0)
     print(len(loader2))
-    #print(loader[1], loader2[1])
